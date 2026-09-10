@@ -1,0 +1,140 @@
+body{
+font-family:Arial,sans-serif;
+margin:0;
+background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(p.jpg);
+width: 100%;
+color:#222;
+}
+header{
+background:#2563eb;
+color:white;
+padding:20px;
+text-align:center;
+}
+input{
+  width: 60%;
+  height: 50px;
+  margin: 2px;
+border-radius:10px;
+border:1px solid #ccc;
+box-shadow: 0 0 15px grey;
+}
+
+button{
+  width: 80px;
+  height: 49px;
+  border-radius: 13px;
+  background: #000;
+  box-shadow: 0 0 15px grey;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+button{
+background:#111827;
+color:white;
+cursor:pointer;
+}
+main{
+padding:20px;
+}
+.card{
+background:white;
+padding:20px;
+margin:15px auto;
+border-radius:15px;
+max-width:700px;
+box-shadow:0 4px 10px #ccc;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+ul img{
+  margin: 15px;
+  height: 50px;
+  width: 60px;
+  background: cyan;
+  border-radius: 10px;
+  box-shadow: 0 0 15px gray;
+}
+
+ul li{
+  margin-top: 25px;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+form{
+   width: 1100px;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px gray;
+}
+
+form .video-list {
+  display: grid;
+  gap: 16px;
+  padding: 20px 0 64px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+form .video-list .video-card {
+  text-decoration: none;
+}
+form .video-list .video-card .thumbnail-container {
+  position: relative;
+}
+form .video-list .video-card .thumbnail {
+  width: 60%;
+  object-fit: contain;
+  border-radius: 8px;
+  aspect-ratio: 16 / 9;
+  background: var(--light-white-color);
+}
+.video-list .video-card .duration {
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 0 5px;
+  border-radius: 5px;
+  background: var(--overlay-dark-color);
+}
+form.video-list .video-card .video-info {
+  display: flex;
+  gap: 11px;
+  padding: 11px 8px;
+}
+form .video-list .video-card .icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+form .video-list .video-card .title {
+  font-size: 1rem;
+  color: var(--black-color);
+  font-weight: 600;
+  line-height: 1.375;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+form .video-list .video-card:hover .title {
+  color: var(--primary-color);
+}
+form .video-list .video-card p {
+  font-size: 0.875rem;
+  color: var(--secondary-color);
+}
+form .video-list .video-card .channel-name {
+  margin: 4px 0 2px;
+}

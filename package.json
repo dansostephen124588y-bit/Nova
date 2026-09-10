@@ -1,0 +1,10 @@
+{
+"name":"online-learn-cloud-server",
+"version":"1.0.0",
+"main":"server.js",
+"scripts":{"start":"node server.js"},
+"dependencies":{
+"express":"latest",
+"cors":"latest"
+}
+}
